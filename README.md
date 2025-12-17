@@ -51,4 +51,4 @@ Explore whether Spotify’s audio features (energy, danceability, loudness, etc.
 
 ## 💬 Author
 👩‍💻 **Amélie Noël**  
-Data Analyst (F.L.E / French as a Foreign Language background → Data Science transition)  
+Data Analyst (F.L.E / French as a Foreign Language background → Data Analytics transition)  
