@@ -70,6 +70,7 @@ Explore the full dashboard here: [Portfolio Audio Feature & Popularity Analysis 
 
 ## Présentation du Projet
 Ce projet a pour objectif **d’analyser les facteurs influençant la popularité des morceaux musicaux**. Avec SQL et Python, nous avons nettoyé, structuré et exploré le dataset pour fournir des insights exploitables pour l’analyse musicale et la prise de décision.
+C'est un projet pédagogique/académique: l’analyse montre que la popularité Spotify est faiblement corrélée aux features audio ; le but principal est de démontrer mes compétences SQL & Python pour le nettoyage et l’EDA.
 
 ## Résumé du projet
 **Question d’analyse**
