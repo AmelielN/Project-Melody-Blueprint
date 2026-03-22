@@ -53,7 +53,7 @@ High popularity tracks tend to have higher danceability and energy, average temp
 
 **Macro Genre Distribution Across Popularity Levels**  
 Shows how popularity varies by macro-genre. Pop & Mainstream, and Rock & Alternative dominate the Very High Popularity segment.
-![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true)
+![Macro Genre Distribution]((https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png))
 
 
 **Interactive Dashboard**  
@@ -124,8 +124,8 @@ Comparaison des morceaux **les moins populaires vs les plus populaires** :
 Les morceaux avec plus de danceability et d’énergie tendent à être légèrement plus populaires. Ces insights peuvent **informer la création de playlists, la stratégie marketing ou les recommandations musicales**, montrant la capacité à relier données → décision.
 
 ## Outils & Compétences
-- SQL : nettoyage, transformation des données, création de variables
-- Python : analyse exploratoire, visualisation
+- SQL : nettoyage, transformation des données, création de variables, groupement par popularité, calcul des moyennes macro-genre
+- Python : analyse exploratoire, visualisation, normalisation des noms des artistes, enlevé les doublons
 - Looker Studio : dashboard interactif
 
 
@@ -134,11 +134,15 @@ Les morceaux avec plus de danceability et d’énergie tendent à être légère
 
 **Insights clés : Popularité vs caractéristiques audio**
 Les morceaux très populaires ont tendance à avoir une **danceability** et une **énergie** plus élevées, tempo moyen ~121 bpm.  
-![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide4charts.png?raw=true)
+![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide4charts.png)
 
 **Distribution des macro-genres selon les niveaux de popularité**
 Montre comment la **popularité varie selon les macro-genres**. Les segments de très haute popularité sont dominés par **Pop & Mainstream** et **Rock & Alternative**.  
 ![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true)
+![Macro Genre Distribution]([https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png
+))
+
+
 
 **Interactive Dashboard**  
 Explorez le dashboard ici: [Portfolio Audio Feature & Popularity Analysis - report (en)](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
