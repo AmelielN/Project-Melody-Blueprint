@@ -53,7 +53,7 @@ High popularity tracks tend to have higher danceability and energy, average temp
 
 **Macro Genre Distribution Across Popularity Levels**  
 Shows how popularity varies by macro-genre. Pop & Mainstream, and Rock & Alternative dominate the Very High Popularity segment.
-![Macro Genre Distribution]((https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png))
+![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/blob/slide3chart.png?raw=true)
 
 
 **Interactive Dashboard**  
