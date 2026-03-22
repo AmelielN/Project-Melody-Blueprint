@@ -1,73 +1,5 @@
 # Projet Portfolio : 🎵 Music Popularity Analysis / Analyse de la Popularité Musicale
 
-## English Version 🇬🇧
-
-## Project Overview
-Analyze Spotify track data to understand what audio features relate to popularity. Focus: **cleaning, EDA, segmentation, feature comparison**.
-
-### Dataset
-- Source: [Spotify Enriched Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
-- Size: 89,741 tracks
-- Audio features: danceability, energy, valence, tempo, loudness, duration  
-- Popularity score → grouped into 5 segments  
-  
-#### Note on Popularity Metric:
-The “popularity” score from Spotify reflects mainly the **number of streams** for each track ([Spotify API documentation](https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/)). For our analysis, we grouped tracks into **popularity buckets** to simplify comparisons.
-
-
-### Key Skills / Tools
-- **SQL**: data cleaning, transformations, feature engineering  
-- **Python**: pandas, matplotlib, seaborn, EDA  
-- **Looker Studio**: dashboard visualization  
-- **Workflow**: Colab notebooks → BigQuery → dashboards  
-
-## Key Insights
-
-| Feature       | Non-Popular | High Popularity | % Difference |
-|---------------|------------|----------------|--------------|
-| Danceability  | 0.578      | 0.599          | +3.48%       |
-| Energy        | 0.591      | 0.642          | +8.56%       |
-| Tempo         | 119.56     | 120.60         | +0.86%       |
-
-> Popular tracks slightly higher in **danceability & energy**. Popularity driven by **combination of features**, not a single variable.
-
-**🎯 Practical / Business Insight:**  
-Tracks with higher danceability and energy tend to be slightly more popular. These insights could inform **playlist curation, marketing strategy, or music recommendation algorithms**, showing an understanding of data-driven decision-making.
-
-
-### Workflow
-1. Data cleaning & normalization (remove duplicates, standardize artist/track names)  
-2. EDA: distributions, outliers, correlation analysis  
-3. Popularity segmentation & feature comparison  
-4. Visualizations → barplots, histograms, Looker Studio dashboard  
-
-  
-## 📊 Dashboard
-- [Looker Studio](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
-  
-**Key Insights: Popularity vs Audio Features**  
-High popularity tracks tend to have higher danceability and energy, average tempo ~121 bpm.
-![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide4charts.png?raw=true)
-
-**Macro Genre Distribution Across Popularity Levels**  
-Shows how popularity varies by macro-genre. Pop & Mainstream, and Rock & Alternative dominate the Very High Popularity segment.
-![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png?raw=true)
-
-
-**Interactive Dashboard**  
-Explore the full dashboard here: [Portfolio Audio Feature & Popularity Analysis - report (en)](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
-
-### Limitations
-- Dataset lacks external variables (artist marketing, playlist placement)
-- Audio features alone cannot fully predict popularity
-- Correlation does not imply causation
-
-### Next Steps / Potential Impact
-- Predictive modeling of track popularity  
-- Clustering tracks by audio profile  
-- Insights for playlist curation or music recommendation  
----
-
 ## Version Française 🇫🇷
 
 ## Présentation du Projet
@@ -158,5 +90,74 @@ Explorez le dashboard ici: [Portfolio Audio Feature & Popularity Analysis - repo
 - Clustering par profil audio  
 - Insights pour création de playlists ou recommandations musicales
 
+---------------------
+
+## English Version 🇬🇧
+
+## Project Overview
+Analyze Spotify track data to understand what audio features relate to popularity. Focus: **cleaning, EDA, segmentation, feature comparison**.
+
+### Dataset
+- Source: [Spotify Enriched Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
+- Size: 89,741 tracks
+- Audio features: danceability, energy, valence, tempo, loudness, duration  
+- Popularity score → grouped into 5 segments  
+  
+#### Note on Popularity Metric:
+The “popularity” score from Spotify reflects mainly the **number of streams** for each track ([Spotify API documentation](https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/)). For our analysis, we grouped tracks into **popularity buckets** to simplify comparisons.
+
+
+### Key Skills / Tools
+- **SQL**: data cleaning, transformations, feature engineering  
+- **Python**: pandas, matplotlib, seaborn, EDA  
+- **Looker Studio**: dashboard visualization  
+- **Workflow**: Colab notebooks → BigQuery → dashboards  
+
+## Key Insights
+
+| Feature       | Non-Popular | High Popularity | % Difference |
+|---------------|------------|----------------|--------------|
+| Danceability  | 0.578      | 0.599          | +3.48%       |
+| Energy        | 0.591      | 0.642          | +8.56%       |
+| Tempo         | 119.56     | 120.60         | +0.86%       |
+
+> Popular tracks slightly higher in **danceability & energy**. Popularity driven by **combination of features**, not a single variable.
+
+**🎯 Practical / Business Insight:**  
+Tracks with higher danceability and energy tend to be slightly more popular. These insights could inform **playlist curation, marketing strategy, or music recommendation algorithms**, showing an understanding of data-driven decision-making.
+
+
+### Workflow
+1. Data cleaning & normalization (remove duplicates, standardize artist/track names)  
+2. EDA: distributions, outliers, correlation analysis  
+3. Popularity segmentation & feature comparison  
+4. Visualizations → barplots, histograms, Looker Studio dashboard  
+
+  
+## 📊 Dashboard
+- [Looker Studio](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
+  
+**Key Insights: Popularity vs Audio Features**  
+High popularity tracks tend to have higher danceability and energy, average tempo ~121 bpm.
+![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide4charts.png?raw=true)
+
+**Macro Genre Distribution Across Popularity Levels**  
+Shows how popularity varies by macro-genre. Pop & Mainstream, and Rock & Alternative dominate the Very High Popularity segment.
+![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png?raw=true)
+
+
+**Interactive Dashboard**  
+Explore the full dashboard here: [Portfolio Audio Feature & Popularity Analysis - report (en)](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
+
+### Limitations
+- Dataset lacks external variables (artist marketing, playlist placement)
+- Audio features alone cannot fully predict popularity
+- Correlation does not imply causation
+
+### Next Steps / Potential Impact
+- Predictive modeling of track popularity  
+- Clustering tracks by audio profile  
+- Insights for playlist curation or music recommendation  
+---
 
 
